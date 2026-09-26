@@ -3,25 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>javascript page</title>
+    <title>TODO-LIST</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    #btn {
-        background: #d5d56e;
-        height: 30px;
-        width: 100px;
-        border: 5px light black;
-        border-radius: 5px;
-    }
-</style>
 <body>
-    <button id="btn">Greeting</button>
-    <p id="demo"></p>
-
-    <p id="message"></p>
-
-    <p id="display"></p>
-
+    <h2>Todo-list</h2>
+    <div class="container">
+        <input type="text" id="userInput" placeholder="New Task">
+        <button id="btn">Add Task</button>
+        <ul id="List"></ul>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
